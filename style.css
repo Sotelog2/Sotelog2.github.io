@@ -1,0 +1,343 @@
+    @import url('https://fonts.cdnfonts.com/css/candy-cake');
+    @import '@import //codepen.io/chrisdothtml/pen/ojLzJK.css';
+
+  
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    body {
+        font-family: 'Candy Cake', sans-serif;
+        background-color: #1b1726;
+    }
+
+
+    img {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    /* Header Styles */
+    .header {
+        background-image: url(images/esfera-celeste-resplandeciente-orbita-galaxia-estrellada-generada-ia.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        min-height: 80vh;
+        padding: 80px 0;
+    }
+
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.5); /* Translucent menu bar */
+    }
+
+    .logo img {
+        width: 1x; /* Adjusted logo size */
+    }
+
+    .menu label {
+        display: none; /* Hidden by default, show on mobile */
+    }
+
+    .menu ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin-left: 20px;
+    }
+
+    .menu ul li a {
+        font-size: 18px;
+        padding: 10px;
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+
+    .menu ul li a:hover {
+        color: #ff5a2c;
+    }
+
+    /* Header Content */
+    .header-content {
+        display: flex;
+    }
+
+    .header-txt {
+        flex-basis: 50%;
+    }
+
+    .header-txt h1 {
+        font-size: 60px;
+        color: #FFFFFF;
+        line-height: 1.3;
+        margin-bottom: 25px;
+    }
+
+    .header-txt span {
+        color: #ff5a2c;
+    }
+
+    .header-txt p {
+        font-size: 17px;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+    }
+
+    .butons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid #ff5a2c;
+    border-radius: 25px;
+    margin-right: 0;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+    .btn-1:hover {
+        background-color: #ff5a2c;
+    }
+
+    /* Popular Section */
+    .popular {
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    h2 {
+        color: #FFFFFF;
+        font-size: 35px;
+        margin-bottom: 45px;
+    }
+
+    .popular-content {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    .embalse-item {
+        flex-basis: 23%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .embalse-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+
+    .embalse-info {
+        color: #FFFFFF;
+        font-size: 14px;
+    line-height: 1.5;
+        margin-top: 10px;
+    }
+
+    /* Product Section */
+    .product-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .product-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    }
+
+    .btn-2 {
+        display: inline-block;
+        padding: 1px 35px;
+        border: 2px solid #ff5a2c;
+        border-radius: 25px;
+        font-size: 17px;
+        color: #000000;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+
+    .btn-2:hover {
+        background-color: #fbff00;
+    }
+
+    .product {
+        background-color: #FFFFFF;
+        padding: 50px;
+    }
+
+
+    .product-txt {
+        color: #000000;
+    }
+
+    .product-1 img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .product-txt p {
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .price {
+       margin-top: 15px;
+    }
+
+
+    /* Contact Section */
+    .contact {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .contact h3 {
+        color: #FFFFFF;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .link ul {
+        display: flex;
+    }
+
+    .link ul li a {
+        font-size: 17px;
+        color: #FFFFFF;
+        margin-right: 20px;
+    }
+
+    .link ul li a:hover {
+        color: #ff5a2c;
+    }
+
+    .social-btns .btn,
+    .social-btns .btn::before,
+    .social-btns .btn .fa {
+        transition: all 0.35;
+        transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    }
+    
+    .social-btns .btn::before {
+        top: 90%; left: -110%;
+    }
+
+    .social-btns .btn .fa {
+        transform: scale(0.8);
+    }
+
+    .social-btns .btn.facebook:before {
+        background-color: #3b5998;
+    }
+
+    .social-btns.btn.facebook .fa {
+        color: #3b5998;
+    }
+
+    .social-btns .btn.instagram:before {
+        background-color: #3cf;
+    }
+
+    .social-btns .btn.instagram .fa {
+        color: #3cf;
+    }
+
+    .social-btns .btn:focus::before,
+    .social-btns .btn:hover::before {
+        top: -10%;  left: -10%;
+    }
+
+    .social-btns .btn:focus .fa,
+    .social-btns .btn:hover .fa {
+        color: #fff;
+        transform: scale(1);
+    }
+
+    .social-btns {
+        height: 90px;
+        margin: auto;
+        font-size: 0;
+        text-align: center;
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+    }
+
+    .social-btns .btn {
+        display: inline-block;
+        background-color: #fff;
+        width: 90px; height: 90px;
+        line-height: 90px;
+        margin: 0 10px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        border-radius: 28%;
+        box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+        opacity: 0.99;
+    }
+
+    .social-btns .btn::before {
+        content: '';
+        width: 120%; height: 120%;
+        position: absolute;
+        transform: rotate(45deg);
+    }
+
+    .social-btns .btn .fa {
+        font-size: 38px;
+        vertical-align: middle;
+    } 
